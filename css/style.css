@@ -60,8 +60,8 @@ a {
 /* header-container*/
 
 .header-container {
-  padding-bottom: 25px;
-  padding-top: 25px;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 /*nav-container*/
@@ -231,6 +231,12 @@ a {
   /* identical to box height, or 187% */
   letter-spacing: 0.06em;
   color: var(--background-color);
+ 
+}
+.hero-button-bgk:hover,
+.hero-button-bgk:focus {
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
 
 /*section points*/
@@ -519,8 +525,8 @@ height: 50px;
 .header-container-portfolio {
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 90px;
-  padding-top: 45px;
+  padding-bottom: 32px;
+  padding-top: 32px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -558,6 +564,8 @@ height: 50px;
 .button-nav-portfolio:focus {
   border-radius: 4px;
   color: var(--background-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
   background-color: var(--accent-color);
 }
 
@@ -577,12 +585,15 @@ height: 50px;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
-
-.project-focus :hover,
-.project-focus :focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+.project-focus {
+  display: block;
+  
 }
+.project-focus:hover,
+.project-focus:focus {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 
 .project-name {
   padding: 20px 25px;
