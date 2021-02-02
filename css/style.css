@@ -274,15 +274,6 @@ border-radius: 4px;
   border-radius: 4px;
   }
 
-    display: block;
-    content: '';
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background: #f5f4fa;
-    border-radius: 4px;
-  }
-}
 .icon-anten::before {
   background-image: url('../img/main/keyboard.jpg');
 }
@@ -358,10 +349,6 @@ border-radius: 4px;
 }
 .comand-list:last-child {
   margin: none;
-}
-.comand-li {
- 
- 
 }
 
 .comand-flex {
@@ -720,7 +707,6 @@ font-family: Roboto;
 .footer-list-link:focus  {
   background-color: var(--accent-color);
 }
-
 
 .footerl-list-link:hover .footer-list-icon,
 .footer-list-link:focus .footerl-list-icon {
