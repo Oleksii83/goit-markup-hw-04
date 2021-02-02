@@ -41,27 +41,20 @@
         <!--contacts-->
         <ul class="address">
           <li class="icon-addres">
-            <div class="addres-icon-div">
+            <a class="addres-title" href="mailto:info@devstudio.com">
               <svg class="addres-svg">
-                <use
-                  class="addres-hover"
-                  href="./img/icon/sprite.svg#icon-mail"
-                ></use>
+                <use href="./img/icon/sprite.svg#icon-mail"></use>
               </svg>
-            </div>
-            <a class="addres-title" href="mailto:info@devstudio.com"
-              >info@devstudio.com
+              info@devstudio.com
             </a>
           </li>
           <li class="icon-tel">
-            <div class="tel-icon-div">
+            <a class="addres-title icon-tel" href="tel:+380961111111">
               <svg class="tel-svg">
                 <use href="./img/icon/sprite.svg#icon-smartphone"></use>
               </svg>
-            </div>
-            <a class="addres-title" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
+              +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -72,12 +65,13 @@
         <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
         <button class="hero-button-bgk" type="button">Заказать услугу</button>
       </section>
+
       <!--points-->
       <section class="points-section">
         <ul class="points size-conteiner">
           <li class="points-flex icon-anten">
             <div class="ant-background">
-              <svg class="antena-svg">
+              <svg class="points-svg">
                 <use href="./img/icon/sprite.svg#icon-antenna"></use>
               </svg>
             </div>
@@ -88,9 +82,11 @@
             </p>
           </li>
           <li class="points-flex">
-            <svg>
-              <use href="./img/icon/sprite.svg#icon-clock"></use>
-            </svg>
+            <div class="ant-background">
+              <svg class="points-svg">
+                <use href="./img/icon/sprite.svg#icon-clock"></use>
+              </svg>
+            </div>
             <h3 class="points-heading">Пунктуальность</h3>
             <p class="points-title">
               Задача организации, в особенности же рамки и место обучения кадров
@@ -98,9 +94,11 @@
             </p>
           </li>
           <li class="points-flex">
-            <svg>
-              <use href="./img/icon/sprite.svg#icon-diagram"></use>
-            </svg>
+            <div class="ant-background">
+              <svg class="points-svg">
+                <use href="./img/icon/sprite.svg#icon-diagram"></use>
+              </svg>
+            </div>
             <h3 class="points-heading">Планирование</h3>
             <p class="points-title">
               Равным образом консультация с широким активом в значительной
@@ -109,9 +107,11 @@
           </li>
 
           <li class="points-flex">
-            <svg>
-              <use href="./img/icon/sprite.svg#icon-astronaut"></use>
-            </svg>
+            <div class="ant-background">
+              <svg class="points-svg">
+                <use href="./img/icon/sprite.svg#icon-astronaut"></use>
+              </svg>
+            </div>
             <h3 class="points-heading">Современные технологии</h3>
             <p class="points-title">
               Значимость этих проблем настолько очевидна, что реализация
@@ -337,68 +337,78 @@
           <ul class="customer-list">
             <li class="customer-list-item">
               <a class="customer-one" href="">
-                <svg class="customer-list-icon">
+                <svg class="customer-list-icon size-one">
                   <use
                     href="./img/icon/sprite.svg#icon-logo-1"
-                    width="45"
-                    height="50"
+                    width="45px"
+                    height="50px"
                   ></use>
                 </svg>
               </a>
             </li>
             <li class="customer-list-item">
               <a href="" class="customer-one">
-                <svg class="customer-list-icon">
+                <svg class="customer-list-icon size-two">
                   <use
                     href="./img/icon/sprite.svg#icon-logo-2"
-                    width="40"
-                    height="52"
+                    width="40px"
+                    height="52px"
                   ></use>
                 </svg>
               </a>
             </li>
             <li class="customer-list-item">
-              <svg class="customer-list-icon">
-                <use
-                  href="./img/icon/sprite.svg#icon-logo-3"
-                  width="41"
-                  height="42"
-                ></use>
-              </svg>
+              <a href="" class="customer-one">
+                <svg class="customer-list-icon size-three">
+                  <use
+                    href="./img/icon/sprite.svg#icon-logo-3"
+                    width="41px"
+                    height="42px"
+                  ></use>
+                </svg>
+              </a>
             </li>
             <li class="customer-list-item">
-              <svg class="customer-list-icon">
-                <use
-                  href="./img/icon/sprite.svg#icon-logo-4"
-                  width="80"
-                  height="42"
-                ></use>
-              </svg>
+              <a href="" class="customer-one">
+                <svg class="customer-list-icon size-four">
+                  <use
+                    href="./img/icon/sprite.svg#icon-logo-4"
+                    width="80px"
+                    height="42px"
+                  ></use>
+                </svg>
+              </a>
             </li>
             <li class="customer-list-item">
-              <svg class="customer-list-icon">
-                <use
-                  href="./img/icon/sprite.svg#icon-logo-5"
-                  width="59"
-                  height="47"
-                ></use>
-              </svg>
+              <a href="" class="customer-one">
+                <svg class="customer-list-icon size-five">
+                  <use
+                    href="./img/icon/sprite.svg#icon-logo-5"
+                    width="59px"
+                    height="47px"
+                  ></use>
+                </svg>
+              </a>
             </li>
             <li class="customer-list-item">
-              <svg class="customer-list-icon">
-                <use
-                  href="./img/icon/sprite.svg#icon-logo-6"
-                  width="90"
-                  height="45"
-                ></use>
-              </svg>
+              <a href="" class="customer-one">
+                <svg class="customer-list-icon size-six">
+                  <use
+                    href="./img/icon/sprite.svg#icon-logo-6"
+                    width="90px"
+                    height="45px"
+                  ></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
       </section>
     </main>
+
     <footer class="footer-list">
       <div class="footer-cotainer size-conteiner">
+        <address>
         <a class="logo-footer" href="WebStudio"
           ><span class="icon-footer-blue">Web</span
           ><span class="icon-footer-wh">Studio</span></a
@@ -423,6 +433,42 @@
             >
           </li>
         </ul>
+        </address>
+        <div class="footer-block">
+          <p class="footer-text">ПРИСОЕДИНЯЙТЕСЬ</p>
+          <ul class="footer-social-list">
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">
+                <svg class="footer-list-icon">
+                  <use href="./img/icon/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">
+                <svg class="footer-list-icon">
+                  <use href="./img/icon/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">
+                <svg class="footer-list-icon">
+                  <use href="./img/icon/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link">
+                <svg class="footer-list-icon">
+                  <use href="./img/icon/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+        
       </div>
     </footer>
   </body>
